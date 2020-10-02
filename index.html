@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tea time topic</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Tea time topic</h1>
+    </header>
+    <form>
+      <fieldset>
+        <label for="add-new-topic">Add a topic</label>
+        <div class="wrapper">
+          <input type="text" class="addNewTopic" id="add-new-topic" placeholder="write your topic idea here">
+          <button type="submit" class="submitTopic">Submit</button>
+        </div>
+      </fieldset>
+    </form>
+    <article class="topics">
+      <div class="nextTopicWrapper">
+        <h2>Next topic</h2>
+        <div class="containerNextTopic"></div>
+      </div>
+      <div class="pastTopicWrapper">
+        <h2>Past topic</h2>
+        <div class="containerPastTopic"></div>
+      </div>
+    </article>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>

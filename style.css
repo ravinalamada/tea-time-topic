@@ -1,0 +1,38 @@
+.nextTopicWrapper,
+.pastTopicWrapper {
+  background-color: bisque;
+}
+
+.pastTopic {
+  margin-block-end: 2rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  margin-block-start: 3rem;
+}
+
+.contentWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.submitTopic {
+  background-color: burlywood;
+  border-color: transparent;
+  text-transform: uppercase;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+svg {
+  width: 2rem;
+  height: 2rem;
+}
